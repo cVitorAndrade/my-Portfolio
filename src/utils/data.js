@@ -27,13 +27,14 @@ import notFound from "../assets/project-image/404-not-found.png"
 import priceTable from "../assets/project-image/price-table.png"
 import projectDefaultImage from "../assets/project-image/project.png"
 import recentWorks from "../assets/project-image/recent-works.png"
+import startupWebsite from "../assets/project-image/startup-website.png"
 
 
 
 
 export const socialMedias = [
-    {name: "linkedin", imageSrc: linkedinImage, id: 1, href:"https://github.com/cvitorandrade"},
-    {name: "gmail", imageSrc: gmailImage, id: 2, href:"mailto:https://github.com/cvitorandrade"},
+    // {name: "linkedin", imageSrc: linkedinImage, id: 1, href:"https://github.com/cvitorandrade"},
+    {name: "gmail", imageSrc: gmailImage, id: 2, href:"mailto:dev.cvitor@gmail.com"},
     {name: "github", imageSrc: githubImage , id: 3, href:"https://github.com/cvitorandrade"}
 ];
 
@@ -61,6 +62,20 @@ export const projects = [
             {name: "NODE", id: 49},
             {name: "JS", id: 50},
             {name: "KNEX", id: 48},
+        ]
+    },
+    {
+        name: "Start Website", id: 16,
+        imageSrc: startupWebsite,
+        description: `Meu projeto, a "Startup Website", é uma vitrine digital projetada para uma startup fictícia que abraça a inovação e a visão do futuro. Esta página não apenas captura a essência da "Start," mas também oferece uma experiência de usuário fluida em todos os dispositivos, desde smartphones até desktops.`,
+        link: "https://cvitorandrade-startup-website.vercel.app/",
+        repository: "https://github.com/cVitorAndrade/startup-website",
+        tags: [
+            {name: "REACT", id: 45}, 
+            {name: "JS", id: 47},
+            {name: "STYLED-COMPONENTS", id: 46},
+            {name: "HTML", id: 48},
+            {name: "CSS", id: 49},
         ]
     },
     {
@@ -104,8 +119,8 @@ export const projects = [
         name: "LaslesVPN", id: 4,
         imageSrc: laslesVPN,
         description: `Minha criação, a "Landing Page LasleVPN," é um portal que abre as portas para um mundo de segurança e privacidade online. Desenvolvida especificamente para a empresa de fictícia VPN "LasleVPN", esta página oferece uma introdução envolvente aos serviços de VPN de alta qualidade da empresa.`,
-        link: "https://github.com/cVitorAndrade/laslesVPN-landing-page",
-        repository: "https://lasles-vpn-landing-page-flame.vercel.app/",
+        link: "https://lasles-vpn-landing-page-flame.vercel.app/",
+        repository: "https://github.com/cVitorAndrade/laslesVPN-landing-page",
         tags: [
             {name: "HTML", id: 11}, 
             {name: "CSS", id: 12},
