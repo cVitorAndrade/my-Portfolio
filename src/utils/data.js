@@ -1,6 +1,5 @@
 import githubImage from "../assets/social-medias/github.png";
 import gmailImage from "../assets/social-medias/gmail.png";
-import linkedinImage from "../assets/social-medias/linkedin.png";
 
 import gitImage from "../assets/skills/git.png";
 import postgresqlImage from "../assets/skills/postgresql.png";
@@ -33,14 +32,12 @@ import startupWebsite from "../assets/project-image/startup-website.png"
 
 
 export const socialMedias = [
-    // {name: "linkedin", imageSrc: linkedinImage, id: 1, href:"https://github.com/cvitorandrade"},
     {name: "gmail", imageSrc: gmailImage, id: 2, href:"mailto:dev.cvitor@gmail.com"},
     {name: "github", imageSrc: githubImage , id: 3, href:"https://github.com/cvitorandrade"}
 ];
 
 export const skills = [
     {name: "Javascript", id: 4, imageSrc: javascriptImage},
-    {name: "Typescript", id: 5, imageSrc: typescriptImage},
     {name: "Express", id: 6, imageSrc: expressImage},
     {name: "React", id: 7, imageSrc: reactImage},
     {name: "Styled Components", id: 8, imageSrc: styledComponentsImage},

@@ -65,7 +65,10 @@ export function Portfolio() {
                     <Swiper
                         slidesPerView={slidePerView}
                         navigation={{clickable: true}}
-                        pagination={{clickable: true}}
+                        pagination={{
+                                clickable: true,
+                                dynamicBullets: true
+                            }}
                         spaceBetween={15}
                         loop={true}
                         centeredSlides={true}
