@@ -27,6 +27,9 @@ import priceTable from "../assets/project-image/price-table.png"
 import projectDefaultImage from "../assets/project-image/project.png"
 import recentWorks from "../assets/project-image/recent-works.png"
 import startupWebsite from "../assets/project-image/startup-website.png"
+import juntosSomosMais from "../assets/project-image/juntosSomosMais.png"
+import coffeeListing from "../assets/project-image/coffee-listing.png"
+import siliconWebsite from "../assets/project-image/siliconWebsite.png"
 
 
 
@@ -62,6 +65,34 @@ export const projects = [
         ]
     },
     {
+        name: "Juntos Somos +", id: 160,
+        imageSrc: juntosSomosMais,
+        description: `Este projeto é o resultado de um desafio proposto pela empresa 'Juntos somos +', onde foi criada uma solução de paginação e filtragem de membros por estado.`,
+        link: "https://juntos-somos-mais-desafio.vercel.app/",
+        repository: "https://github.com/cVitorAndrade/JuntosSomosMais-Desafio",
+        tags: [
+            {name: "REACT", id: 450}, 
+            {name: "JS", id: 470},
+            {name: "STYLED-COMPONENTS", id: 460},
+            {name: "HTML", id: 480},
+            {name: "CSS", id: 490},
+        ]
+    },
+    {
+        name: "Silicon WebSite", id: 169,
+        imageSrc: siliconWebsite,
+        description: `O Silicon WebSite representou um desafio significativo, pois envolvia elementos com os quais eu não tinha experiência prévia. No entanto, essa incerteza inicial não me impediu de avançar. Ao final, tive sucesso, mesmo diante das dificuldades encontradas.`,
+        link: "https://silicon-website.vercel.app/",
+        repository: "https://github.com/cVitorAndrade/siliconWebsite",
+        tags: [
+            {name: "REACT", id: 454}, 
+            {name: "JS", id: 474},
+            {name: "STYLED-COMPONENTS", id: 467},
+            {name: "HTML", id: 484},
+            {name: "CSS", id: 494},
+        ]
+    },
+    {
         name: "Start Website", id: 16,
         imageSrc: startupWebsite,
         description: `Meu projeto, a "Startup Website", é uma vitrine digital projetada para uma startup fictícia que abraça a inovação e a visão do futuro. Esta página não apenas captura a essência da "Start," mas também oferece uma experiência de usuário fluida em todos os dispositivos, desde smartphones até desktops.`,
@@ -86,6 +117,19 @@ export const projects = [
             {name: "CSS", id: 2}, 
             {name: "JS", id: 3},
             {name: "API", id: 4}
+        ]
+    },
+    {
+        name: "Coffee Listing", id: 177,
+        imageSrc: coffeeListing,
+        description: "Criei uma aplicação web emocionante que permite aos amantes de cinema descobrirem suas próximas aventuras cinematográficas com facilidade. Esta aplicação inovadora se integra à API The Movie DB para fornecer recomendações personalizadas de filmes com um simples toque de botão.",
+        link: "https://vercel.com/cvitorandrade/coffee-listing-challenge/Bfq6ANCsBasetrw2Enki3Ynwthf3",
+        repository: "https://github.com/cVitorAndrade/helpflix",
+        tags: [
+            {name: "HTML", id: 109}, 
+            {name: "CSS", id: 209}, 
+            {name: "JS", id: 309},
+            {name: "API", id: 409}
         ]
     },
     {

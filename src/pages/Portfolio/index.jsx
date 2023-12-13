@@ -48,7 +48,6 @@ export function Portfolio() {
                 <p>Developer</p>
                 <h1>Carlos Vitor</h1>
                 <p>Sou um desenvolvedor fullstack apaixonado por criar soluções tecnológicas inovadoras. Minha missão é transformar ideias em realidade, entregando resultados excepcionais tanto no frontend quanto no backend. </p>
-                <Button title="Contact me"/>
             </div>
             </Profile>
 
